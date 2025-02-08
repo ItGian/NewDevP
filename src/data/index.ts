@@ -10,7 +10,6 @@ export const gridItems = [
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
-    witdh: 200,
   },
   {
     id: 2,
@@ -21,7 +20,6 @@ export const gridItems = [
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
-    witdh: 200,
   },
   {
     id: 3,
@@ -32,7 +30,6 @@ export const gridItems = [
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
-    witdh: 200,
   },
   {
     id: 4,
@@ -43,7 +40,6 @@ export const gridItems = [
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
-    witdh: 200,
   },
 
   {
@@ -55,7 +51,6 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
-    witdh: 200,
   },
   {
     id: 6,
@@ -66,44 +61,9 @@ export const gridItems = [
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
-    witdh: 200,
   },
 ];
 
-export const projects = [
-  {
-    id: 1,
-    title: "CRUD (Create Read Update Delete)",
-    des: "Membuat Landing page untuk CRUD beserta fungsinya dengan menggunakan ",
-    img: "/project_1.png",
-    iconLists: ["/html.png", "/css.png", "/boost.png"],
-    link: "",
-  },
-  {
-    id: 2,
-    title: "Pantiasuhan Landing page",
-    des: "Membuat desain Landing page pantiasuhan sebagai tugas P5",
-    img: "/project_2.png",
-    iconLists: ["/html.png", "/css.png", "/boost.png"],
-    link: "",
-  },
-  {
-    id: 3,
-    title: "Login/Register Page",
-    des: "Membuat Login page dan register page dengan menggunakan HTML CSS dan Boostrap",
-    img: "/project_3.png",
-    iconLists: ["/html.png", "/css.png", "/boost.png"],
-    link: "",
-  },
-  {
-    id: 4,
-    title: "Portofolio Web design ",
-    des: "Membuat desain web Portofolio dengan Next js dan di deploy menggunakan Vercel",
-    img: "/project_4.png",
-    iconLists: ["/next.svg", "/tail.svg"],
-    link: "https://biodata-tikr.vercel.app/",
-  },
-];
 
 export const testimonials = [
   {

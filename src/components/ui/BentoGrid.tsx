@@ -92,16 +92,17 @@ export const BentoGridItem = ({
         </div>
         <div
           className={`absolute right-0 -bottom-5 ${
-            id === 5 && "w-full opacity-80"
+            id === 5 && "w-full h-full opacity-80"
           } `}
         >
           {spareImg && (
             <Image
               src={spareImg}
               alt={spareImg}
-              width={220}
-              height={220}
+              width={60}
+              height={100}
               className="object-cover object-center w-full h-full"
+              style={{ width: "100%", height: "100%" }}
             />
           )}
         </div>
