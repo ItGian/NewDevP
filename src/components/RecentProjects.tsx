@@ -66,7 +66,7 @@ const RecentProjects = () => {
                       height={300}
                       sizes="100vw"
                       className="w-full h-full object-cover"
-                      style={{ width: "100%", height: "auto" }}
+                      style={{ width: "100%", height: "100%" }}
                     />
                   </div>
                   <Image
@@ -75,6 +75,7 @@ const RecentProjects = () => {
                     width={500}
                     height={300}
                     className="z-10 absolute bottom-0"
+                    style={{ width: "100%", height: "100%" }}
                   />
                 </div>
 
